@@ -51,6 +51,6 @@ test:
 #
 production:
   <<: *default
-  database: rails_mysql_production
-  username: rails_mysql
+  database: heroku_f309baed153e91f
+  username: b8871699061f46
   password: <%= ENV['RAILS_MYSQL_DATABASE_PASSWORD'] %>

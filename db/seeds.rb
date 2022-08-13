@@ -9,6 +9,6 @@
 5.times do |n|
   User.create!(
     login_email: "test#{n + 1}@test.com",
-    login_password: "#{n + 1}",
+    login_password: "#{n + 1234}",
   )
 end
